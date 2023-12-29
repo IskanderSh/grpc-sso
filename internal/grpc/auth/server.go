@@ -3,10 +3,10 @@ package auth
 import (
 	"context"
 	"errors"
-	"github.com/IskanderSh/sso/internal/services/auth"
-	"github.com/IskanderSh/sso/internal/storage"
 
 	ssov1 "github.com/IskanderSh/protos/gen/go/sso"
+	"github.com/IskanderSh/sso/internal/services/auth"
+	"github.com/IskanderSh/sso/internal/storage"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"

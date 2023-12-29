@@ -5,10 +5,10 @@ import (
 	"database/sql"
 	"errors"
 	"fmt"
+
 	"github.com/IskanderSh/sso/internal/domain/models"
 	"github.com/IskanderSh/sso/internal/storage"
 	"github.com/mattn/go-sqlite3"
-
 	_ "github.com/mattn/go-sqlite3"
 )
 

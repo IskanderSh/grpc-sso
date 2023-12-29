@@ -1,9 +1,10 @@
 package app
 
 import (
-	grpcapp "github.com/IskanderSh/sso/internal/app/grpc"
 	"log/slog"
 	"time"
+
+	grpcapp "github.com/IskanderSh/sso/internal/app/grpc"
 )
 
 type App struct {

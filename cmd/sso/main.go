@@ -1,14 +1,14 @@
 package main
 
 import (
-	"github.com/IskanderSh/sso/internal/app"
-	"github.com/IskanderSh/sso/internal/lib/logger/handlers/slogpretty"
 	"log/slog"
 	"os"
 	"os/signal"
 	"syscall"
 
+	"github.com/IskanderSh/sso/internal/app"
 	"github.com/IskanderSh/sso/internal/config"
+	"github.com/IskanderSh/sso/internal/lib/logger/handlers/slogpretty"
 )
 
 const (
